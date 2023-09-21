@@ -1,19 +1,7 @@
 import React, { useEffect } from 'react';
+import pdf from "../../public/MIRZA SAHID BAIG RESUME .pdf"
 
 const Hero = () => {
-  const handleDownloadResume = () => {
-    const pdfUrl = '../../public/MIRZA SAHID BAIG RESUME .pdf';
-    const anchor = document.createElement('a');
-    anchor.style.display = 'none';
-    anchor.href = pdfUrl;
-    anchor.download = 'resume.pdf';
-    anchor.target = '_blank'; 
-    document.body.appendChild(anchor);
-    anchor.click();
-    document.body.removeChild(anchor);
-  };
-  
-
   useEffect(() => {
     return () => {
       const anchors = document.querySelectorAll('a[download]');
@@ -32,9 +20,10 @@ const Hero = () => {
             <h2 className='title'>
               Hello, I'm <span>Sahid</span> Welcome to my portfolio.
             </h2>
-            <button className="btn resumebtn" onClick={handleDownloadResume} download>
-              Resume
-            </button>
+            <a href={pdf} target='_blank' rel='nooreferrer'><button className="btn resumebtn" >
+            Resume
+          </button></a>
+            
           </div>
         </div>
       </div>
