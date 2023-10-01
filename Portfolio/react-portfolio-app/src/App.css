@@ -14,9 +14,8 @@ body {
 .bg_image {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50%;
-  /* background-image: url(src/assets/bg-image.jpg); */
-  background-image: url(../src/assets/ii.jpg);
+  background-position:50%;
+  background-image: url(../../react-portfolio-app/src/Pic/android-chrome-512x512-918616b2.jpg)
 }
 
 .banner {
@@ -71,7 +70,7 @@ body {
 }
 
 .thumbnail {
-  margin-top: -69px;
+  margin-top: -50px;
 }
 
 .thumbnail img {
@@ -577,7 +576,7 @@ footer .text{
     background-size: cover;
     background-position: 50%;
     /* background-image: url(src/assets/bg-image.jpg); */
-    background-image: url(../src/assets/img1.jpeg);
+    background-image: url(../src/Pic/9.jpg)
   }
   
 }
