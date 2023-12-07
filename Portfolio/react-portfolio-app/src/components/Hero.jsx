@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import pdf from "../../public/Education.pdf"
+import pdf from "../../public/MIRZA SAHID BAIG RESUME.pdf"
 
 const Hero = () => {
   useEffect(() => {
