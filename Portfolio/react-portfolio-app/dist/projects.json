@@ -1,8 +1,0 @@
-[
-    {"id": 1, "title": "VkTube", "category": "ReactJs|Tailwind Css", "live":"https://vktube.netlify.app/", "image": "images/VkTube.png","git":""},
-    {"id": 2, "title": "VkChat", "category": "ReactJs", "image": "./images/vkchat.png","live":"https://vkchat01.netlify.app/","git":""},
-    {"id": 3, "title": "Urban Interior", "category": "ReactJs|Nextjs|Mongodb","image": "./images/urban.png","live":"","git":""},
-    {"id": 4, "title": "BookHub", "category": "React|Bootstrap|Nodejs", "image": "./images/bookhub.png","live":"","git":""},
-    {"id": 5, "title": "ExamPortal", "category": "React|Bootstrap|Nodejs ", "image": "./images/Examportal.png","live":"","git":""},
-    {"id": 6, "title": "Portfolio", "category": "ReactJs|Tailwind Css", "image": "./images/portfolio.png","live":"","git":""}
-]
